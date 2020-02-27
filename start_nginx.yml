@@ -3,4 +3,4 @@
   tasks:
     - name: nginx start
       command: service nginx start
-        msg: "NGINX Started!"
+      msg: "NGINX Started!"
