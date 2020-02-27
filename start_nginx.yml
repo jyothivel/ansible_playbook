@@ -3,4 +3,3 @@
   tasks:
      - name: start webserver
        command: service nginx start
-       msg: "NGINX Started!"
