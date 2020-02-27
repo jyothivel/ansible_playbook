@@ -1,5 +1,6 @@
 - name: Start NGINX
   hosts: 192.168.219.90
   tasks:
-     - command: service nginx start
+     - name: start webserver
+       command: service nginx start
        msg: "NGINX Started!"
